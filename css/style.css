@@ -1,0 +1,214 @@
+.header {
+    padding-bottom: 100px;
+    padding-top: 35px;
+}
+
+.container {
+    min-width: 1200px;
+}
+
+.header{
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+
+}
+.main{
+    padding-top: 65px;
+    padding-bottom: 119px;
+}
+
+
+
+.header__title {
+    margin-left: 230px;
+    font-family: "Bilbo Swash Caps";
+    color: #FED136;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a {
+    margin-left: 10px;
+    color: #FED136;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__last {
+    margin-right: 230px;
+}
+
+
+.services {
+    margin-left: 218px;
+    margin-right: 218px;
+}
+
+
+.services__title {
+    color: #222;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+
+
+}
+
+.service__info-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.services__info-title {
+    color: #222;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+
+}
+
+.services__info-text {
+    color: #777;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 300px;
+
+}
+
+.service__inner-title {
+    text-align: center;
+    padding-bottom: 169px;
+    padding-top: 130px;
+}
+
+.contacts {
+    margin-top: 119px;
+    background-color: #222;
+    padding-bottom: 143px;
+
+}
+
+
+.contacts__title-all {
+    margin-top: 92px;
+}
+
+.contacts__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    padding-top: 92px;
+}
+
+.contacts__form {
+    display: flex;
+    margin-top: 140px;
+    margin-left: 370px;
+    align-items: center;
+    text-align: center;
+}
+
+.contacts__form1 {
+    display: grid;
+
+}
+
+.contacts__form-input {
+    width: 455px;
+    height: 50px;
+    margin-bottom: 28px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.textarea {
+    width: 465px;
+    height: 220px;
+    margin-left: 20px;
+    margin-bottom: 27px;
+    color: #BBB;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+
+.button {
+    width: 242px;
+    height: 68px;
+    display: block;
+    margin: auto;
+    background-color: #FED136;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.footer{
+    padding-top: 92px;
+    padding-bottom: 115px;
+}
+
+.service__icon{
+    width: 70px;
+}
